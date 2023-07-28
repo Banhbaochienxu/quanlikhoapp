@@ -1,0 +1,48 @@
+.login{
+    background: rgba(255, 255, 255, 0.7);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    width: 300px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(83, 106, 236);
+}
+
+.form-group{
+    position: relative;
+}
+
+.label{
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group input:focus + .label, .form-group input:valid + .label{
+    top: -15px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: rgb(83, 106, 236);
+}
+.mess{
+    transform: translateX(-102%);
+    transition: all 0.3s ease-in-out;
+}
+.notification{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}

@@ -1,0 +1,28 @@
+.popup{
+    background: rgba(65, 62, 62, 0.432);
+    position: fixed;
+    margin: auto;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.popup_content{
+    padding: 30px;
+    position: absolute;
+    background: white;
+    min-width: 500px;
+    min-height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+
+.btn-color{
+    background: #1c6e8c;
+}
+.text-center{
+    margin-top: 26px;
+}
